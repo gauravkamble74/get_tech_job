@@ -7,10 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h2>Lets Start</h2>
-<h3>Login Here....</h3>
-<br><br>
-<h3><a href="Register.jsp" >Join Here..</a><br>Register Here</h3>
+<h2>Register Page</h2>
+<br>
+<h3>Register as Employer</h3>
+
+<br><hr>
+<h3>Register as Candidate</h3>
 
 </body>
 </html>

@@ -7,10 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h2>Lets Start</h2>
-<h3>Login Here....</h3>
-<br><br>
-<h3><a href="Register.jsp" >Join Here..</a><br>Register Here</h3>
+<h3>Jobs for you near your Area...</h3>
 
 </body>
 </html>
