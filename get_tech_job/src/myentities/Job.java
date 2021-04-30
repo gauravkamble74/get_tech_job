@@ -28,6 +28,37 @@ public class Job {
 	
 	@Column(name="qualification")
 	private String qualification;
+	
+	@Column(name="job_company_id")
+	private String jobcmp;
+	
+	@Column(name="job_id")
+	private String jid;
+	
+	/**
+	 * @return the jid
+	 */
+	public String getJid() {
+		return jid;
+	}
+	/**
+	 * @param jid the jid to set
+	 */
+	public void setJid(String jid) {
+		this.jid = jid;
+	}
+	/**
+	 * @return the jobcmp
+	 */
+	public String getJobcmp() {
+		return jobcmp;
+	}
+	/**
+	 * @param jobcmp the jobcmp to set
+	 */
+	public void setJobcmp(String jobcmp) {
+		this.jobcmp = jobcmp;
+	}
 	/**
 	 * @return the jobnm
 	 */
