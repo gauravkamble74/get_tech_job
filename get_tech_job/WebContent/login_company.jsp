@@ -65,6 +65,7 @@
 </form>
 
 <br><hr>
+<h3>Delete Job</h3>
 <form name="frm" method="post" action="delete_job.jsp">
 Enter Job Id <input type="text" name="jid">
 <input type="submit" value="Submit">
@@ -130,5 +131,12 @@ Enter Job Id <input type="text" name="jid">
 
 </form>
 
+<br><br><hr>
+<h3>Change Password</h3>
+<form name="frm" method="post" action="ChangeCompPass">
+Enter current Password<input type="text" name="cpass"><br>
+Enter new Password <input type="text" name="npass"><br>
+<input type="submit" value="Submit"> 
+</form>
 </body>
 </html>
